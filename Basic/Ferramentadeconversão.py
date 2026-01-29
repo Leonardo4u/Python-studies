@@ -1,6 +1,7 @@
 # fahrenheit = (celsius * 9/5) + 32
 #celsius = (fahrenheit - 32) * 5/9
 
+
 def celsius_to_fahrenheit(celsius):
     return (celsius * 9/5) + 32
 
@@ -15,7 +16,6 @@ def convert_temperature(temperature, unit):
     else:
         raise ValueError("Unidade desconhecida. Use 'C' ou 'F'.")
 
-# ---- PROGRAMA COMEÇA AQUI ----
 temperature = float(input("Digite a temperatura: "))
 unit = input("Digite a unidade (C ou F): ")
 
