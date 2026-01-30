@@ -71,6 +71,7 @@ print(user1)
 for usuario in usuarios:
     print(usuario)
 
-    if usuario['idade'] > 30:
-        print("Usuário maior de 30 anos")
+    if usuario['idade'] > 35:
+        print("Usuário maior de 35 anos")
+        
         
