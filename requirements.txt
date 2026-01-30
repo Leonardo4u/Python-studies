@@ -1,0 +1,4 @@
+# Dependências básicas de estudo (adicione/remova conforme necessário)
+requests
+numpy
+pandas

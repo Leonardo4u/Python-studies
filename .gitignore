@@ -1,0 +1,41 @@
+# Python
+venv/
+.env
+ENV/
+env/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+.eggs/
+
+# Installer logs
+pip-log.txt
+
+# Test / coverage
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+
+# IDEs
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Databases
+*.sqlite3
